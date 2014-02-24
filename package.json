@@ -1,11 +1,11 @@
 {
-  "name": "-css3-animation-showcase",
+  "name": "css3-animation-showcase",
   "description": "Prototype",
   "version": "0.1.0",
   "author": {
-    "name": "",
+    "name": "FE Unit B",
     "email": "",
-    "url": "http://github.com//"
+    "url": "http://github.com/Prototype-Group/"
   },
   "engines": {
     "node": ">=0.8"
