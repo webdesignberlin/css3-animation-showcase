@@ -8,7 +8,7 @@ lib-cov
 *.gz
 *.yo-rc.json
 
-_output/css/demo.css
+_output/*
 
 pids
 logs
