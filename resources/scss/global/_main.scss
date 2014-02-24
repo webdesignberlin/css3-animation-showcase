@@ -1,137 +1,280 @@
-/* ---------------------------------------------------
-Demo Styles - just delete them
---------------------------------------------------- */
+/**
+ * Testcase Stylesheet
+ *
+ * Standard Screen Layout
+ */
+
+
+/**
+ * ---------------------------------------------------------------------------------------------------- #
+ *
+ * Globaler Browser Reset
+ * 
+ * @section browser reset
+ * @see     http://meyerweb.com/eric/tools/css/reset/
+ *          v2.0 | 20110126
+ *          License: none (public domain)
+ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
 body {
-	background: #f4f4f4;
-	color: #333;
-	font-family: Arial, sans-serif;
-	font-size: 16px;
-	line-height: 140%;
+    line-height: 1;
 }
 
-.navbar {
-	background: #222;
-	height: 100%;
-	left: 0;
-	position: fixed;
-	top: 0;
-	width: 20%;
-	a {
-		background: #444;
-		color: #fff;
-		display: block;
-		font-weight: normal;
-		margin-bottom: 1px;
-		padding: 0.5em 1em;
-		text-align: right;
-		text-decoration: none;
-		&:hover {
-			background: yellowgreen;
-			color: #333;
-		}
-		&.navbar-brand {
-			background: none;
-			display: block;
-			font-weight: bold;
-			text-align: right;
-			text-transform: uppercase;
-			&:hover {
-				color: yellowgreen;
-			}
-		}
-	}
-	li {
-		&.active {
-			a, a:hover {
-				background: yellowgreen;
-				color: #333;
-			}
-		}
-	}
+ol, ul {
+    list-style: none;
 }
 
-h2 {
-	color: yellowgreen;
-	font-weight: bold;
-	margin: 1em 0;
+blockquote, q {
+    quotes: none;
 }
 
-#main {
-	margin-left: 25%;
-	width: 60%;
-	h1 {
-		font-size: 150%;
-		font-weight: bold;
-		margin-bottom: 0.5em;
-		@include breakpoint(568px){
-			font-size: 100%;
-		}
-	}
-	img {
-		height: auto;
-		margin: 1em;
-		max-width: 100%;
-	}
-	ul {
-		margin-left: 1em;
-		margin-top: 1em;
-		li {
-			font-size: 120%;
-			line-height: 145%;
-			list-style: circle;
-			margin-left: 1em;
-			@include breakpoint(568px){
-				font-size: 100%;
-			}
-			a {
-				color: #666;
-				text-decoration: none;
-			}
-		}
-	}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+    content: none;
 }
 
-article {
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/**
+ * ---------------------------------------------------------------------------------------------------- #
+ *
+ * Clearfix
+ * 
+ * @section clearing method
+ * @see	 http://nicolasgallagher.com/micro-clearfix-hack/
+ */
+
+.cf:before,
+.cf:after {
+	display: table;
+	content: "";
+}
+
+.cf:after {
 	clear: both;
-	margin-bottom: 1em;
-	position: relative;
 }
 
-/* Teaser
 
-Primary teaser styles
+/**
+ * ---------------------------------------------------------------------------------------------------- #
+ *
+ * Basisformatierungen
+ *
+ * @section base-formattings
+ */
 
-Markup:
-<div class="teaser">
-    <h2>this is my title</h2>
-    <p>
-        This is just a demo content to show you how to integrate external data
-    </p>
-</div>
+body {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 1em; /* 16px */
+    line-height: 1.375em; /* 22px */
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    color: #333;
+    background-color: #fff;
+}
 
-.teaser - Standard class for teaser elements
-h2 - Displays h2 in teasers
 
-Styleguide 1
-*/
-.teaser {
-	background: #d4d4d4;
-	-moz-box-sizing: border-box;
+/**
+ * ---------------------------------------------------------------------------------------------------- #
+ * 
+ * Allgemeine Layoutformatierungen
+ * 
+ * @section layout-basics
+ */
+
+.content {
+    position: relative;
+    max-width: 80%;
+    margin: 20px auto 0;
+}
+
+.case {
+	margin-bottom: 50px;
+}
+
+
+/**
+ * ---------------------------------------------------------------------------------------------------- #
+ * 
+ * Case 1
+ * 
+ * @section c-1
+ */
+
+.c-1 {
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
 	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	float: left;
-	margin: 0 3% 1em 0;
-	padding: 0.5em;
-	width: 30%;
-	&:nth-child(3n + 1) {
-		margin-right: 0;
-		clear: right;
+	background-color: #ccc;
+}
+
+.c-1:before {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    content: "";
+}
+
+.c-1 .box {
+    display: inline-block;
+    max-width: 80%;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+
+
+/**
+ * ---------------------------------------------------------------------------------------------------- #
+ * 
+ * Case 2
+ * 
+ * @section c-2
+ */
+
+.c-2 {
+	max-width: 100%;
+	word-spacing: -1em;
+}
+
+.c-2 .box {
+    display: inline-block;
+    width: 50%;
+	padding: 10px;
+	vertical-align: top;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	word-spacing: 0;
+	background-color: #eee;
+}
+
+.c-2 .box + .box {
+	background-color: #ddd;
+}
+
+
+/**
+ * ---------------------------------------------------------------------------------------------------- #
+ * 
+ * Case 3
+ * 
+ * @section c-3
+ */
+
+.c-3 {
+	margin-left: -10px;
+	word-spacing: -1em;
+}
+
+.c-3 > .box-wrapper {
+    display: inline-block;
+    width: 33.3333%;
+	word-spacing: 0;
+	vertical-align: top;
+}
+
+.c-3 .box {
+	padding: 10px;
+	margin-left: 10px;
+	background-color: #eee;
+}
+
+
+/**
+ * ---------------------------------------------------------------------------------------------------- #
+ * 
+ * Case 4
+ * 
+ * @section c-4
+ */
+
+.c-4 {
+	margin-left: -10px;
+	word-spacing: -1em;
+}
+
+.c-4 > .box-wrapper {
+    display: inline-block;
+    width: 33.3333%;
+	word-spacing: 0;
+	vertical-align: top;
+}
+
+.c-4 .box {
+	padding: 10px;
+	margin: 0 0 10px 10px;
+	background-color: #eee;
+}
+
+
+/**
+ * ---------------------------------------------------------------------------------------------------- #
+ * 
+ * Case 5
+ * 
+ * @section c-5
+ */
+
+.c-5 {
+	margin-left: -10px;
+	word-spacing: -1em;
+}
+
+.c-5 > .box-wrapper {
+    display: inline-block;
+    width: 25%;
+	word-spacing: 0;
+	vertical-align: top;
+}
+
+.c-5 .box {
+	padding: 10px;
+	margin: 0 0 10px 10px;
+	background-color: #eee;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+	.c-5 > .box-wrapper {
+	    width: 50%;
 	}
-	&:nth-child(3n + 2) {
-		clear: left;
-	}
-	h2 {
-		color: black;
-		margin: 0.35em;
-	}
+
 }
