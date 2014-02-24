@@ -13,3 +13,7 @@
 		}
 	}
 }
+
+@mixin transition($property, $value) {
+	transition-#{$property}: $value;
+}

@@ -1,0 +1,44 @@
+// EASING CLASSES
+.easing-linear {
+	@include transition(transition-timing-function, linear);
+}
+
+.easing-ease-in {
+	@include transition(timing-function, easing-ease-in);
+}
+
+.easing-ease-out {
+	@include transition(timing-function, easing-ease-out);
+}
+
+.easing-ease-in-out {
+	@include transition(timing-function, easing-ease-in-out);
+}
+
+
+// DURATION CLASSES
+.duration-500 {
+	@include transition(duration, 500ms);
+}
+
+.duration-1000 {
+	@include transition(duration, 1000ms);
+}
+
+.duration-1500 {
+	@include transition(duration, 1500ms);
+}
+
+
+//DELAY CLASSES
+.delay-500 {
+	@include transition(delay, 500ms);
+}
+
+.delay-1000 {
+	@include transition(delay, 1000ms);
+}
+
+.delay-1500 {
+	@include transition(delay, 1500ms);
+}

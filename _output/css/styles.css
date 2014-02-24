@@ -50,7 +50,7 @@ a img {
   border: none;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
@@ -322,3 +322,44 @@ body {
     width: 50%;
   }
 }
+.easing-linear {
+  transition-transition-timing-function: linear;
+}
+
+.easing-ease-in {
+  transition-timing-function: easing-ease-in;
+}
+
+.easing-ease-out {
+  transition-timing-function: easing-ease-out;
+}
+
+.easing-ease-in-out {
+  transition-timing-function: easing-ease-in-out;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+
+.duration-1500 {
+  transition-duration: 1500ms;
+}
+
+.delay-500 {
+  transition-delay: 500ms;
+}
+
+.delay-1000 {
+  transition-delay: 1000ms;
+}
+
+.delay-1500 {
+  transition-delay: 1500ms;
+}
+
+/*# sourceMappingURL=styles.css.map */
