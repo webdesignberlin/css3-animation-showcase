@@ -10,7 +10,7 @@
 			"libs/lodash/dist/lodash.underscore",
 			"libs/backbone/backbone",
 			"css3animations/namespace",
-			"css3animations/selectbox",
+			"css3animations/selectanimation",
 			"css3animations/init"
 		]
 	},
