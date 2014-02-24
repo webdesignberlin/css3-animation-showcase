@@ -50,7 +50,7 @@ a img {
   border: none;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
@@ -401,5 +401,3 @@ body {
 .property-transform {
   transition-property: transform;
 }
-
-/*# sourceMappingURL=styles-svg.css.map */

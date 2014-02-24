@@ -9,18 +9,18 @@ module.exports = {
     pages: {
         options: {
             layout: '<%= paths.src %>/templates/layouts/tpl_default.hbs',
-    plugins: ['assemble-related-pages'],
+            plugins: ['assemble-related-pages'],
          },
-            files: {
-                '<%= paths.dist %>/': ['<%= paths.src %>/templates/pages/*.hbs']
-                }
+        files: {
+            '<%= paths.dist %>/': ['<%= paths.src %>/templates/pages/*.hbs']
+            }
+        },
+        ajax: {
+            options: {
+                layout: '<%= paths.src %>/templates/layouts/tpl_ajax.hbs'
             },
-            ajax: {
-                options: {
-                    layout: '<%= paths.src %>/templates/layouts/tpl_ajax.hbs'
-                },
             files: {
                     '<%= paths.dist %>/ajax-content/': ['<%= paths.src %>/templates/pages/ajax/*.hbs']
                 }
-            }
+        }
 };
