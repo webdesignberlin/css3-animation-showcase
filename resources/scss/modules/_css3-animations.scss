@@ -42,3 +42,45 @@
 .delay-1500 {
 	@include transition(delay, 1500ms);
 }
+
+
+// PROPERTIES
+.property-all {
+	@include transition(property, all);
+}
+
+.property-top {
+	@include transition(property, top);
+}
+
+.property-right {
+	@include transition(property, right);
+}
+
+.property-bottom {
+	@include transition(property, bottom);
+}
+
+.property-left {
+	@include transition(property, left);
+}
+
+.property-width {
+	@include transition(property, width);
+}
+
+.property-height {
+	@include transition(property, height);
+}
+
+.property-border-radius {
+	@include transition(property, border-radius);
+}
+
+.property-opacity {
+	@include transition(property, opacity);
+}
+
+.property-transform {
+	@include transition(property, transform);
+}

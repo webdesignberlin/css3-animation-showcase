@@ -362,4 +362,44 @@ body {
   transition-delay: 1500ms;
 }
 
+.property-all {
+  transition-property: all;
+}
+
+.property-top {
+  transition-property: top;
+}
+
+.property-right {
+  transition-property: right;
+}
+
+.property-bottom {
+  transition-property: bottom;
+}
+
+.property-left {
+  transition-property: left;
+}
+
+.property-width {
+  transition-property: width;
+}
+
+.property-height {
+  transition-property: height;
+}
+
+.property-border-radius {
+  transition-property: border-radius;
+}
+
+.property-opacity {
+  transition-property: opacity;
+}
+
+.property-transform {
+  transition-property: transform;
+}
+
 /*# sourceMappingURL=styles-svg.css.map */
