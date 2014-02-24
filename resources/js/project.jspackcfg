@@ -12,13 +12,8 @@
 			"css3animations/namespace",
 			"css3animations/selectanimation",
 
-			"libs/prism/code",
-			"libs/prism/components",
 			"libs/prism/prism",
-			"libs/prism/prism-css.min",
-			"libs/prism/prism-javascript.min",
-			"libs/prism/prism-markup.min",
-			"libs/prism/prism-scss.min",
+			"libs/prism/prism-scss",
 
 			"css3animations/init"
 		]

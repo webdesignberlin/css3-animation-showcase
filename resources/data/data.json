@@ -1,6 +1,7 @@
 {
 	"headline": "Headline",
-	"dummy-code-markup": "<div class='class-1 class-2 class-3'></div>",
-	"dummy-code-css": "blockquote: {font-style: italic;}",
-	"dummy-code-scss": "blockquote {font-style: italic; cite {display: block; font-style: normal;}}"
+	"dummy-code-markup": "<div class=\"class-1 class-2 class-3\"></div>",
+	"dummy-code-css": "blockquote: { font-style: italic; }",
+	"dummy-code-scss": "blockquote: { font-style: italic; }",
+	"dummy-code-javascript": "var answer = 42;"
 }
