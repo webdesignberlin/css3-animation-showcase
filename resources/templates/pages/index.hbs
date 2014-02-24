@@ -7,6 +7,9 @@
 		<div class="animation-controls">
 			<select class="animation-select">
 				<option value="" disabled="disabled">Please choose...</option>
+                {{#each cases}}
+	                <option value="{{this.classNames}}">{{this.caseName}}</option>
+                {{/each}}
 			</select>
 			
 			<button class="show-animation">Show Animation</button>

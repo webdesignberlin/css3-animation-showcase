@@ -1,7 +1,23 @@
 {
-	"headline": "Headline",
+	"title": "CSS3 Animation",
 	"dummy-code-markup": "<div class=\"class-1 class-2 class-3\"></div>",
 	"dummy-code-css": "blockquote: { font-style: italic; }",
 	"dummy-code-scss": "blockquote: { font-style: italic; }",
 	"dummy-code-javascript": "var answer = 42;"
+	"headline": "CSS3 Animation Showcase",
+	"dummy-code": "<div class=\"animation-box\"></div>",
+	"cases": [
+		{
+			"caseName": "height",
+			"classNames": "ani-case-1 ani-property-height ani-duration-500 ani-easing-bounce"
+		},
+		{
+			"caseName": "width",
+			"classNames": "ani-case-2 ani-property-width ani-duration-500 ani-easing-ease-in-out"
+		},
+		{
+			"caseName": "background color",
+			"classNames": "ani-case-3 ani-property-background-color ani-duration-1500 ani-easing-ease-in-out"
+		}
+	]
 }

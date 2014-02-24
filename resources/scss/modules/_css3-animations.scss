@@ -1,83 +1,91 @@
 // EASING CLASSES
-.easing-linear {
+.ani-easing-linear {
 	@include transition(timing-function, linear);
 }
 
-.easing-ease-in {
+.ani-easing-ease-in {
 	@include transition(timing-function, ease-in);
 }
 
-.easing-ease-out {
+.ani-easing-ease-out {
 	@include transition(timing-function, ease-out);
 }
 
-.easing-ease-in-out {
+.ani-easing-ease-in-out {
 	@include transition(timing-function, ease-in-out);
 }
 
+.ani-easing-bounce {
+	@include transition(timing-function, cubic-bezier(0, 1.8, 1, 1.8));
+}
+
 // DURATION CLASSES
-.duration-500 {
+.ani-duration-500 {
 	@include transition(duration, 500ms);
 }
 
-.duration-1000 {
+.ani-duration-1000 {
 	@include transition(duration, 1000ms);
 }
 
-.duration-1500 {
+.ani-duration-1500 {
 	@include transition(duration, 1500ms);
 }
 
 //DELAY CLASSES
-.delay-500 {
+.ani-delay-500 {
 	@include transition(delay, 500ms);
 }
 
-.delay-1000 {
+.ani-delay-1000 {
 	@include transition(delay, 1000ms);
 }
 
-.delay-1500 {
+.ani-delay-1500 {
 	@include transition(delay, 1500ms);
 }
 
 // PROPERTIES
-.property-all {
+.ani-property-all {
 	@include transition(property, all);
 }
 
-.property-top {
+.ani-property-top {
 	@include transition(property, top);
 }
 
-.property-right {
+.ani-property-right {
 	@include transition(property, right);
 }
 
-.property-bottom {
+.ani-property-bottom {
 	@include transition(property, bottom);
 }
 
-.property-left {
+.ani-property-left {
 	@include transition(property, left);
 }
 
-.property-width {
+.ani-property-width {
 	@include transition(property, width);
 }
 
-.property-height {
+.ani-property-height {
 	@include transition(property, height);
 }
 
-.property-border-radius {
+.ani-property-border-radius {
 	@include transition(property, border-radius);
 }
 
-.property-opacity {
+.ani-property-opacity {
 	@include transition(property, opacity);
 }
 
-.property-transform {
+.ani-property-background-color {
+	@include transition(property, background-color);
+}
+
+.ani-property-transform {
 	@include transition(property, transform);
 }
