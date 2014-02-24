@@ -94,6 +94,14 @@ table {
  * @section base-formattings
  */
 
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 body {
     font-family: helvetica, arial, sans-serif;
     font-size: 1em; /* 16px */
@@ -170,7 +178,9 @@ body {
  */
 
 .c-2 {
-	max-width: 100%;
+	display: table;
+	width: 100%;
+	table-layout: fixed;
 	word-spacing: -1em;
 }
 
@@ -179,9 +189,6 @@ body {
     width: 50%;
 	padding: 10px;
 	vertical-align: top;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
 	word-spacing: 0;
 	background-color: #eee;
 }
