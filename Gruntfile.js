@@ -33,7 +33,7 @@
                 dist: '_output'
             },
             ports : {
-                app : '9000',
+                app : '9010',
                 test : '9001',
                 livereload : 35729
             }
