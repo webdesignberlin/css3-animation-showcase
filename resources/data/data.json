@@ -3,12 +3,12 @@
 	"dummy-code": "<div class=\"class-1 class-2 class-3\"></div>",
 	"cases": [
 		{
-			"caseName": "width",
-			"classNames": "ani-case-1 ani-property-width ani-duration-500 ani-easing-bounce"
+			"caseName": "height",
+			"classNames": "ani-case-1 ani-property-height ani-duration-500 ani-easing-bounce"
 		},
 		{
-			"caseName": "height",
-			"classNames": "ani-case-2 ani-property-height ani-duration-500 ani-easing-ease-in-out"
+			"caseName": "width",
+			"classNames": "ani-case-2 ani-property-width ani-duration-500 ani-easing-ease-in-out"
 		},
 		{
 			"caseName": "background color",
