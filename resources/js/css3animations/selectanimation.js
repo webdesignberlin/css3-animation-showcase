@@ -1,4 +1,4 @@
-css3ani.SelectBox = Backbone.View.extend({
+css3ani.SelectAnimation = Backbone.View.extend({
 	initialize: function() {
 		console.log( 'initialize' );
 	}

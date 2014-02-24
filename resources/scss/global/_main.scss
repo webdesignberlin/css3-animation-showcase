@@ -175,6 +175,7 @@ body {
 
 .c-2 {
 	display: table;
+	overflow: hidden;
 	width: 100%;
 	table-layout: fixed;
 	word-spacing: -1em;
@@ -183,7 +184,8 @@ body {
 .c-2 .box {
 	display: inline-block;
 	width: 50%;
-	padding: 10px;
+	margin-bottom: -10000px;
+	padding: 10px 10px 10000px;
 	vertical-align: top;
 	word-spacing: 0;
 	background-color: #eee;

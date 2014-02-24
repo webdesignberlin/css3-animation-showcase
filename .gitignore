@@ -19,3 +19,4 @@ node_modules
 .sass-cache
 /css3-animation-showcase.sublime-project
 /css3-animation-showcase.sublime-workspace
+/_output
