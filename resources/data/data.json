@@ -4,11 +4,11 @@
 	"cases": [
 		{
 			"caseName": "width",
-			"classNames": "ani-case-1 ani-property-width ani-duration-500 ani-easing-ease-in-out"
+			"classNames": "ani-case-1 ani-property-width ani-duration-500 ani-easing-bounce"
 		},
 		{
 			"caseName": "height",
-			"classNames": "ani-case-2 ani-property-height ani-duration-500 ani-easing-bounce"
+			"classNames": "ani-case-2 ani-property-height ani-duration-500 ani-easing-ease-in-out"
 		},
 		{
 			"caseName": "background color",
