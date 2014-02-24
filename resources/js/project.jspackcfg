@@ -6,8 +6,12 @@
 	],
 	"packageList": {
 		"main": [
+			"libs/jquery/dist/jquery",
 			"libs/lodash/dist/lodash.underscore",
-			"libs/backbone/backbone"
+			"libs/backbone/backbone",
+			"css3animations/namespace",
+			"css3animations/selectanimation",
+			"css3animations/init"
 		]
 	},
 	"name": "Prototype",

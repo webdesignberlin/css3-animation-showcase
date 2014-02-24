@@ -1,3 +1,3 @@
-(function(root){
-	root.css3ani ? root.css3ani : {};
-}(window));
+if(!window.css3ani) {
+	var css3ani = {};
+}
