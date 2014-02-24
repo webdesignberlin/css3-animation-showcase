@@ -4,7 +4,6 @@
  * Standard Screen Layout
  */
 
-
 /**
  * ---------------------------------------------------------------------------------------------------- #
  *
@@ -25,46 +24,45 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0;
-    border: 0;
-    padding: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-    display: block;
+	display: block;
 }
 
 body {
-    line-height: 1;
+	line-height: 1;
 }
 
 ol, ul {
-    list-style: none;
+	list-style: none;
 }
 
 blockquote, q {
-    quotes: none;
+	quotes: none;
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content: "";
-    content: none;
+	content: "";
+	content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
-
 
 /**
  * ---------------------------------------------------------------------------------------------------- #
@@ -85,7 +83,6 @@ table {
 	clear: both;
 }
 
-
 /**
  * ---------------------------------------------------------------------------------------------------- #
  *
@@ -95,15 +92,16 @@ table {
  */
 
 body {
-    font-family: helvetica, arial, sans-serif;
-    font-size: 1em; /* 16px */
-    line-height: 1.375em; /* 22px */
-    -webkit-font-smoothing: antialiased;
-    text-align: left;
-    color: #333;
-    background-color: #fff;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 1em;
+	/* 16px */
+	line-height: 1.375em;
+	/* 22px */
+	-webkit-font-smoothing: antialiased;
+	text-align: left;
+	color: #333;
+	background-color: #fff;
 }
-
 
 /**
  * ---------------------------------------------------------------------------------------------------- #
@@ -114,15 +112,14 @@ body {
  */
 
 .content {
-    position: relative;
-    max-width: 80%;
-    margin: 20px auto 0;
+	position: relative;
+	max-width: 80%;
+	margin: 20px auto 0;
 }
 
 .case {
 	margin-bottom: 50px;
 }
-
 
 /**
  * ---------------------------------------------------------------------------------------------------- #
@@ -133,10 +130,10 @@ body {
  */
 
 .c-1 {
-    display: inline-block;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
+	display: inline-block;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -144,22 +141,21 @@ body {
 }
 
 .c-1:before {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-    content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	content: "";
 }
 
 .c-1 .box {
-    display: inline-block;
-    max-width: 80%;
+	display: inline-block;
+	max-width: 80%;
 	padding: 10px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	background-color: #fff;
 }
-
 
 /**
  * ---------------------------------------------------------------------------------------------------- #
@@ -175,8 +171,8 @@ body {
 }
 
 .c-2 .box {
-    display: inline-block;
-    width: 50%;
+	display: inline-block;
+	width: 50%;
 	padding: 10px;
 	vertical-align: top;
 	-webkit-box-sizing: border-box;
@@ -189,7 +185,6 @@ body {
 .c-2 .box + .box {
 	background-color: #ddd;
 }
-
 
 /**
  * ---------------------------------------------------------------------------------------------------- #
@@ -205,8 +200,8 @@ body {
 }
 
 .c-3 > .box-wrapper {
-    display: inline-block;
-    width: 33.3333%;
+	display: inline-block;
+	width: 33.3333%;
 	word-spacing: 0;
 	vertical-align: top;
 }
@@ -216,7 +211,6 @@ body {
 	margin-left: 10px;
 	background-color: #eee;
 }
-
 
 /**
  * ---------------------------------------------------------------------------------------------------- #
@@ -232,8 +226,8 @@ body {
 }
 
 .c-4 > .box-wrapper {
-    display: inline-block;
-    width: 33.3333%;
+	display: inline-block;
+	width: 33.3333%;
 	word-spacing: 0;
 	vertical-align: top;
 }
@@ -243,7 +237,6 @@ body {
 	margin: 0 0 10px 10px;
 	background-color: #eee;
 }
-
 
 /**
  * ---------------------------------------------------------------------------------------------------- #
@@ -259,22 +252,17 @@ body {
 }
 
 .c-5 > .box-wrapper {
-    display: inline-block;
-    width: 25%;
+	display: inline-block;
+	width: 25%;
 	word-spacing: 0;
 	vertical-align: top;
+	@include breakpoint(1024px, 768px) {
+		width: 50%;
+	}
 }
 
 .c-5 .box {
 	padding: 10px;
 	margin: 0 0 10px 10px;
 	background-color: #eee;
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-
-	.c-5 > .box-wrapper {
-	    width: 50%;
-	}
-
 }
