@@ -323,19 +323,19 @@ body {
   }
 }
 .easing-linear {
-  transition-transition-timing-function: linear;
+  transition-timing-function: linear;
 }
 
 .easing-ease-in {
-  transition-timing-function: easing-ease-in;
+  transition-timing-function: ease-in;
 }
 
 .easing-ease-out {
-  transition-timing-function: easing-ease-out;
+  transition-timing-function: ease-out;
 }
 
 .easing-ease-in-out {
-  transition-timing-function: easing-ease-in-out;
+  transition-timing-function: ease-in-out;
 }
 
 .duration-500 {

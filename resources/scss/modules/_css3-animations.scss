@@ -1,18 +1,18 @@
 // EASING CLASSES
 .easing-linear {
-	@include transition(transition-timing-function, linear);
+	@include transition(timing-function, linear);
 }
 
 .easing-ease-in {
-	@include transition(timing-function, easing-ease-in);
+	@include transition(timing-function, ease-in);
 }
 
 .easing-ease-out {
-	@include transition(timing-function, easing-ease-out);
+	@include transition(timing-function, ease-out);
 }
 
 .easing-ease-in-out {
-	@include transition(timing-function, easing-ease-in-out);
+	@include transition(timing-function, ease-in-out);
 }
 
 
