@@ -12,21 +12,19 @@ css3ani.SelectAnimation = Backbone.View.extend({
 	},
 
 	applyClassNames: function() {
-		var classNames = this.selectBox.val() || '';
-		var appliedClasses = this.animationBox.attr('class');
-		var len = appliedClasses.length;
-		var i = 0;
-		var codeBoxContent = this.codeBox.html();
+		var appliedClasses = this.selectBox.val().split(' ');
+		var classNames = _.reject(this.animationBox.attr('class').split(' '), function(className) {
+			return className.indexOf('ani-') !== -1;
+		}); 
+		var codeBoxContent = this.codeBox.html(); 
+		var newClassnames = '';
 
-		appliedClasses = appliedClasses.replace(/\sani-.*\s/g, '');
-		appliedClasses = appliedClasses.replace(/ani-.*\s/g, '');
-		appliedClasses = appliedClasses.replace(/\sani-.*/g, '');
-		appliedClasses = appliedClasses + ' ' + classNames;
+		newClassnames = classNames.join(' ') + ' ' + appliedClasses.join(' ');
 
-		codeBoxContent = codeBoxContent.replace(/class=".*"/, 'class="' + $.trim(appliedClasses) + '"');
+		codeBoxContent = codeBoxContent.replace(/class=".*"/, 'class="' + $.trim(newClassnames) + '"');
 
 		this.codeBox.html($.trim(codeBoxContent));
 
-		this.animationBox.attr('class', appliedClasses);
+		this.animationBox.attr('class', newClassnames);
 	}
 })
