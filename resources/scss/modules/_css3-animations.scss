@@ -15,7 +15,6 @@
 	@include transition(timing-function, ease-in-out);
 }
 
-
 // DURATION CLASSES
 .duration-500 {
 	@include transition(duration, 500ms);
@@ -29,7 +28,6 @@
 	@include transition(duration, 1500ms);
 }
 
-
 //DELAY CLASSES
 .delay-500 {
 	@include transition(delay, 500ms);
@@ -42,7 +40,6 @@
 .delay-1500 {
 	@include transition(delay, 1500ms);
 }
-
 
 // PROPERTIES
 .property-all {
