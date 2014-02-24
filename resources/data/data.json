@@ -1,4 +1,18 @@
 {
 	"headline": "Headline",
-	"dummy-code": "<div class=\"class-1 class-2 class-3\"></div>"
+	"dummy-code": "<div class=\"class-1 class-2 class-3\"></div>",
+	"cases": [
+		{
+			"caseName": "width",
+			"classNames": "ani-case-1 ani-property-width ani-duration-500 ani-easing-ease-in-out"
+		},
+		{
+			"caseName": "height",
+			"classNames": "ani-case-2 ani-property-height ani-duration-500 ani-easing-bounce"
+		},
+		{
+			"caseName": "background color",
+			"classNames": "ani-case-3 ani-property-background-color ani-duration-1500 ani-easing-ease-in-out"
+		}
+	]
 }
