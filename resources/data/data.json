@@ -1,5 +1,6 @@
 {
-	"headline": "Headline",
+	"title": "CSS3 Animation",
+	"headline": "CSS3 Animation Showcase",
 	"dummy-code": "<div class=\"animation-box\"></div>",
 	"cases": [
 		{
