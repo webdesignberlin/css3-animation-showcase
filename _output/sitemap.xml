@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>undefined/_output/index.html</loc>
+    <lastmod>2014-02-24T10:40:26.380Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>undefined/_output/sitemap.html</loc>
+    <lastmod>2014-02-24T10:40:26.382Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>undefined/_output/subpage.html</loc>
+    <lastmod>2014-02-24T10:40:26.382Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
