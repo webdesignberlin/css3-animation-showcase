@@ -6,6 +6,8 @@
 	],
 	"packageList": {
 		"main": [
+			"libs/lodash/dist/lodash.underscore",
+			"libs/backbone/backbone",
 			"main"
 		]
 	},
