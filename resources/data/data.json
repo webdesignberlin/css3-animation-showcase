@@ -1,11 +1,11 @@
 {
 	"title": "CSS3 Animation",
-	"dummy-code-markup": "<div class=\"class-1 class-2 class-3\"></div>",
+	"dummy-code-markup": "<div class=\"animation-box\"></div>",
 	"dummy-code-css": "blockquote: { font-style: italic; }",
 	"dummy-code-scss": "blockquote: { font-style: italic; }",
-	"dummy-code-javascript": "var answer = 42;"
+	"dummy-code-javascript": "var answer = 42;",
 	"headline": "CSS3 Animation Showcase",
-	"dummy-code": "<div class=\"animation-box\"></div>",
+
 	"cases": [
 		{
 			"caseName": "height",
