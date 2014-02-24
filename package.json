@@ -42,5 +42,8 @@
       "type": "MIT",
       "url": "https://github.com//-css3-animation-showcase/blob/master/LICENSE-MIT"
     }
-  ]
+  ],
+  "dependencies": {
+    "grunt-packager": "~0.1.0"
+  }
 }

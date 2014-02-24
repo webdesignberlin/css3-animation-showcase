@@ -1,4 +1,14 @@
 {
+	"nolint": [],
+	"nopack": [],
+	"includeSmallLoader": [
+		"main"
+	],
+	"packageList": {
+		"main": [
+			"main"
+		]
+	},
 	"name": "Prototype",
 	"obfuscate": true
 }
