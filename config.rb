@@ -28,7 +28,12 @@ end
 relative_assets = true
 disable_warnings = true
 line_comments = false
+
+# sourcemap in compass
+sourcemap = true
+# fallback for gem package
 enable_sourcemaps = true
+
 Sass::Script::Number.precision = 8
 
 # options for sprite generation
@@ -46,8 +51,6 @@ Sass::Script::Number.precision = 8
 
 # # options to be passed from compass to sass.
 sass_options = {
- 	:debug_info => (environment == :development),
- 	:read_cache => true,
      :sourcemap => true
  }
 

@@ -63,6 +63,9 @@ h2 {
 		font-size: 150%;
 		font-weight: bold;
 		margin-bottom: 0.5em;
+		@include breakpoint(568px){
+			font-size: 100%;
+		}
 	}
 	img {
 		height: auto;
@@ -77,6 +80,9 @@ h2 {
 			line-height: 145%;
 			list-style: circle;
 			margin-left: 1em;
+			@include breakpoint(568px){
+				font-size: 100%;
+			}
 			a {
 				color: #666;
 				text-decoration: none;
@@ -91,6 +97,23 @@ article {
 	position: relative;
 }
 
+/* Teaser
+
+Primary teaser styles
+
+Markup:
+<div class="teaser">
+    <h2>this is my title</h2>
+    <p>
+        This is just a demo content to show you how to integrate external data
+    </p>
+</div>
+
+.teaser - Standard class for teaser elements
+h2 - Displays h2 in teasers
+
+Styleguide 1
+*/
 .teaser {
 	background: #d4d4d4;
 	-moz-box-sizing: border-box;
