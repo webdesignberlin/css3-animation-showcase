@@ -310,6 +310,11 @@ body {
   word-spacing: 0;
   vertical-align: top;
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .c-5 > .box-wrapper {
+    width: 50%;
+  }
+}
 
 .c-5 .box {
   padding: 10px;
@@ -317,11 +322,6 @@ body {
   background-color: #eee;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  .c-5 > .box-wrapper {
-    width: 50%;
-  }
-}
 .easing-linear {
   transition-timing-function: linear;
 }
